@@ -1,6 +1,6 @@
 require("lualine").setup({
 	options = {
-		theme = "papercolor_dark",
+		theme = "moonfly",
 		component_separators = {},
 		section_separators = {},
 		disabled_filetypes = {

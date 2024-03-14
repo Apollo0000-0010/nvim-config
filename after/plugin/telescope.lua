@@ -9,15 +9,7 @@ vim.keymap.set('n', '<leader>vh', builtin.help_tags, {})
 
 require('telescope').setup{
   defaults = {
-    layout_strategy = 'vertical', 
-    layout_config = {
-      vertical = { width = 0.8, height = 1 },
-      horizontal = { width = 0.8, height = 1 }
-    }
-  },
-  pickers = {
-    find_files = {
-      theme = 'dropdown'
-    }
+    layout_strategy = 'vertical',
+    layout_config = { width = 0.90, height = 0.9 }
   }
 }
