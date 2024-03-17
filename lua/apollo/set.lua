@@ -6,3 +6,7 @@ vim.opt.shiftwidth = 2
 vim.opt.expandtab = true
 
 vim.opt.smartindent = true
+
+vim.diagnostic.config({
+  virtual_text = false,
+})
