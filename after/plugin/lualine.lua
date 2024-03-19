@@ -17,12 +17,12 @@ require("lualine").setup({
 		},
 	},
 	sections = {
-		lualine_a = { { "mode", padding = 2 } },
-		lualine_b = { { "branch", padding = 2 }, { "diff", padding = 2 }, { "diagnostics", padding = 2 } },
-		lualine_c = { { "filename", padding = 2 }, { "buffer", padding = 2 } },
-		lualine_x = { { "encoding", padding = 2, separator = "|" }, { "filetype", padding = 2 } },
+		lualine_a = { "branch" },
+		lualine_b = { { "diagnostics", padding = 2 } },
+		lualine_c = { { "filename", path= 2, padding = 2 }, { "buffer", padding = 2 } },
+		lualine_x = { { "filetype", separator = "|" }, { "encoding", padding = 2 } },
 		lualine_y = { { "progress", padding = 2 } },
-		lualine_z = { { "location", padding = 2 } },
+		lualine_z = { { "mode", padding = 2 } },
 	},
 	inactive_sections = {
 		lualine_a = {},
